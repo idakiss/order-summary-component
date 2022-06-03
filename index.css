@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Red Hat Display';
-    background-image: url(./pattern-background-desktop.svg);
+    background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-color: hsl(225, 100%, 94%);
@@ -117,6 +117,7 @@ h3 {
 h4 {
     font-size: 16px;
     font-weight: 700;
+    color: hsl(225, 100%, 98%);
 }
 
 button {
