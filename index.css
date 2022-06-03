@@ -1,0 +1,165 @@
+@media only screen and (min-width: 375px) and (max-width: 1440px) {
+    /* change screen */
+}
+
+body {
+    font-family: 'Red Hat Display';
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;  
+    align-content: center;
+    align-items: center;  
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0%;
+}
+
+.outer.card {
+    position: initial;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 400px;
+    height: 680px;
+    background-color: white;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(.75);
+    overflow: hidden;
+}
+
+/* card pic */
+.hero {
+    width: 100%;
+}
+
+/* Order Summary */
+h1 {
+    /* font-size: 16px; */
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+/* paragraph */
+p {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    line-height: 155%;
+    max-width: 300px;
+}
+
+/* music/plan/money/change */
+.inner.card {
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    margin: 10px;
+}
+
+.icon.music {
+    padding: 10px;
+    align-self: center;
+}
+
+.mini.column {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100px;
+}
+
+/* Annual Plan */
+h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+}
+.upper {
+    margin-bottom: -10px;
+}
+.lower {
+    margin-top: -20px;
+}
+
+/* Change */
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+}
+.change {
+    padding: 10px;
+    margin-left: 90px;
+}
+.change:hover {
+    color: hsl(225, 100%, 94%);
+}
+
+/* Proceed to Payment */
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button {
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    border: none;
+    width: 350px;
+    margin: 10px;
+}
+button:hover {
+    /* padding: 15px 32px; */
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),
+    0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+button:active 
+/* WIP */
+
+/* Cancel */
+/* h5 {
+    font-weight: 900;
+} */
+
+.cancel {
+    padding: 10px;
+    margin-top: -10px;
+}
+.text {
+    font-size: 16px;
+    font-weight: 900;
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+}
+
+.attribution { 
+    font-size: 11px; 
+    margin: -80px;
+    padding: 10px;
+    text-align: center; 
+    position: relative;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
